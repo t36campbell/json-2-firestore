@@ -19,6 +19,7 @@ data.forEach(function(obj) {
         //add schema
         id: obj.AtomicNumber,
         element: obj.Element,
+        symbol: obj.Symbol,
         atomicMass: obj.AtomicMass,
         neutrons: obj.NumberofNeutrons,
         protons: obj.NumberofProtons,
